@@ -14,3 +14,5 @@
  测试集的图片在 Dataset 2/ test_images，对应到GT在 Datset 2/test_masks
  
  相关参数在 configuration.txt
+
+。。。我推错分支了，代码在master分支
