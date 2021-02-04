@@ -1,0 +1,25 @@
+
+[unet_parameters]
+#--------data paths-------#
+path_local = .
+train_images_dir = /Dataset 2/images/
+train_labels_dir = /Dataset 2/masks/
+test_images_dir =  /Dataset 2/test_images/
+test_labels_dir = /Dataset 2/test_masks/
+unet_model_dir = /model/
+
+
+img_h = 256
+img_w = 256
+C = 3
+N_channels = 3
+gt_gray_value_list = [0, 128, 255]
+#image height, image width, num of classes respectively
+
+
+#----training settings----#
+N_epochs = 60
+batch_size = 8
+validation_rate = 0.1
+
+
